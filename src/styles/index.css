@@ -1,12 +1,39 @@
-
-/* 
-
-    You can write your own styles here...
+ul{
+    padding-left: 0rem;
+    margin-bottom: 0rem;
+}
+li{
+    border: 0px solid #ced4da;;
+    list-style-type: none;
+    padding-left: 2rem;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.footerCount p{
+    border: 0.1px solid #ced4da;;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+}
+
+div{
+    width: 30rem;
+    margin: auto;
+}
+
+.form-control{
+    padding: .350rem 2rem 
+}
+
+.input{
+    width: 30rem;
+    margin: auto;
+    background: #fff;
+    box-shadow:
+      0 1px 1px rgba(0,0,0,0.15),
+        0 10px 0 -5px #eee,
+       0 10px 1px -4px rgba(0,0,0,0.15),
+        0 20px 0 -10px #eee,
+       0 20px 1px -9px rgba(0,0,0,0.15);
+
+    padding: 0px;
+}
